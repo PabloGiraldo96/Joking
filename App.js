@@ -2,7 +2,7 @@ const b = document.querySelector("#movingbutton");
 b.addEventListener("mouseover",change);
 
 const secondButton = document.querySelector('#alert');
-secondButton.addEventListener("click", display_image);
+secondButton.addEventListener("click", displayImage);
 
 
 function change(){
@@ -15,15 +15,11 @@ function change(){
 	b.style.bottom = z + "px";
 }
 
-function display_image(src, width, height, alt) {
+function displayImage(){
     let a = document.createElement("img");
-    a.src = src;
-    a.width = width;
-    a.height = height;
-    a.alt = alt;
+    a.src = 'giphy.gif';
+    a.width = 266;
+    a.height = 130;
+    a.alt = GifAdded;
     document.body.appendChild(a);
 }
-display_image('/giphy.gif', 
-                 276, 
-                 110, 
-                 'GifAdded');
