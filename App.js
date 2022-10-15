@@ -16,10 +16,5 @@ function change(){
 }
 
 function displayImage(){
-    let a = document.createElement("img");
-    a.src = 'giphy.gif';
-    a.width = 266;
-    a.height = 130;
-    a.alt = GifAdded;
-    document.body.appendChild(a);
+  document.getElementById('img').style.display="block";
 }
