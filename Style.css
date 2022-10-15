@@ -40,7 +40,7 @@ margin-left: auto;
 margin-right: auto;
 display: block;
 position: absolute;
-left: 320px;
+left: 308px;
 top: 140px;
 border:none;
 cursor: pointer;
@@ -68,4 +68,8 @@ font-size: 18px;
 width: 65px;
 height:50px;
 border-radius: 12px;
+}
+
+img{
+  display: none;
 }
