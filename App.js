@@ -2,7 +2,7 @@ const b = document.querySelector("#movingbutton");
 b.addEventListener("mouseover",change);
 
 const secondButton = document.querySelector('#alert');
-secondButton.addEventListener("click", sonido);
+secondButton.addEventListener("click", display_image);
 
 
 function change(){
