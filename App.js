@@ -15,8 +15,15 @@ function change(){
 	b.style.bottom = z + "px";
 }
 
-function sonido(){
-const phrase = document.createElement("h2");
-phrase.innerHTML = "JAJAJ Yo sabía mi amor!";
-document.body.appendChild(phrase);
+function display_image(src, width, height, alt) {
+    let a = document.createElement("img");
+    a.src = src;
+    a.width = width;
+    a.height = height;
+    a.alt = alt;
+    document.body.appendChild(a);
 }
+display_image('/giphy.gif', 
+                 276, 
+                 110, 
+                 'GifAdded');
