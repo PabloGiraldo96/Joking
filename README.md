@@ -1,2 +1,3 @@
 # Joking
- Little Joke with Js
+
+Little joke made with Js in order to apply DOM concepts.
